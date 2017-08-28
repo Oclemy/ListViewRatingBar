@@ -17,7 +17,15 @@ import com.tutorials.hp.listviewratingbar.mData.Spaceship;
 import java.util.ArrayList;
 
 /**
- * Created by Oclemy on 12/7/2016 for ProgrammingWizards Channel and http://www.camposha.com.
+ * Created by Oclemy for ProgrammingWizards TV Channel and http://www.camposha.info.
+ - Our adapter class.
+ - Derives from android.widget.BaseAdapter.
+ - Here we: inflate our model xml layout to viewitems and recycle it, bind data to these viewitems.
+ - The data we bind is passed to us via constructor.
+ - Apart from the data being passed us, we are also passed a Context object that will help us getSystemService that we  need for
+ our inflation of model layout.
+ - Being that we derive from BaseAdapter, we override getCount() which returns total count of our data, getItem() which returns
+ each data object,getItemId() which returns the object's id, and getView() to return us its view().
  */
 public class CustomAdapter extends BaseAdapter {
 
@@ -28,22 +36,18 @@ public class CustomAdapter extends BaseAdapter {
         this.spaceships = spaceships;
         this.c = c;
     }
-
     @Override
     public int getCount() {
         return spaceships.size();
     }
-
     @Override
     public Object getItem(int i) {
         return spaceships.get(i);
     }
-
     @Override
     public long getItemId(int i) {
         return i;
     }
-
     /*
     INFLATE XML LAYOUT TO VIEW
      */
