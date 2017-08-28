@@ -3,7 +3,8 @@ package com.tutorials.hp.listviewratingbar.mData;
 import com.tutorials.hp.listviewratingbar.R;
 import java.util.ArrayList;
 /**
- * Created by Oclemy on 12/7/2016 for ProgrammingWizards TV Channel and http://www.camposha.info.
+ * Created by Oclemy for ProgrammingWizards TV Channel and http://www.camposha.info.
+
  - Our SpaceshipsCollection class.
  - This class will contain a static method that returns an arraylist of spaceships that we can bind to our listview.
  - Think of this class as our data source, so it can be replaced with a database.

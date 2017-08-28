@@ -1,6 +1,6 @@
 package com.tutorials.hp.listviewratingbar.mData;
 /**
- * Created by Oclemy on 12/7/2016 for ProgrammingWizards TV Channel and http://www.camposha.info.
+ * Created by Oclemy for ProgrammingWizards TV Channel and http://www.camposha.info.
  - Our Spaceship class.
  - Defines our data object with its properties like name, image and rating, with rating being an integer.
  - Then their getters and setters.

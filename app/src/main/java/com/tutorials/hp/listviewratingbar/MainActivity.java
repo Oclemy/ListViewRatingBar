@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ListView;
-
 import com.tutorials.hp.listviewratingbar.mAdapterView.CustomAdapter;
 import com.tutorials.hp.listviewratingbar.mData.SpaceshipsCollection;
 /*
