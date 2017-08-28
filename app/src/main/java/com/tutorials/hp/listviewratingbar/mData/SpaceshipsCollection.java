@@ -1,12 +1,12 @@
 package com.tutorials.hp.listviewratingbar.mData;
 
-
 import com.tutorials.hp.listviewratingbar.R;
-
 import java.util.ArrayList;
-
 /**
- * Created by Oclemy on 12/7/2016 for ProgrammingWizards Channel and http://www.camposha.com.
+ * Created by Oclemy on 12/7/2016 for ProgrammingWizards TV Channel and http://www.camposha.info.
+ - Our SpaceshipsCollection class.
+ - This class will contain a static method that returns an arraylist of spaceships that we can bind to our listview.
+ - Think of this class as our data source, so it can be replaced with a database.
  */
 public class SpaceshipsCollection{
 
@@ -44,7 +44,6 @@ public class SpaceshipsCollection{
         s.setImage(R.drawable.opportunity);
         spaceships.add(s);
 
-
         s=new Spaceship();
         s.setName("Pioneer");
         s.setRating(2);
@@ -63,15 +62,12 @@ public class SpaceshipsCollection{
         s.setImage(R.drawable.rosetta);
         spaceships.add(s);
 
-
         s=new Spaceship();
         s.setName("Hubble");
         s.setRating(5);
         s.setImage(R.drawable.hubble);
         spaceships.add(s);
 
-
         return spaceships;
     }
-
 }
