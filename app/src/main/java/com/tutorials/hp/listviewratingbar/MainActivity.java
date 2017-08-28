@@ -10,9 +10,16 @@ import android.widget.ListView;
 
 import com.tutorials.hp.listviewratingbar.mAdapterView.CustomAdapter;
 import com.tutorials.hp.listviewratingbar.mData.SpaceshipsCollection;
-
+/*
+- Our MainActivity class.
+- Derives from AppCompatActivity which is a Base class for activities that use the support library action bar features.
+- Methods: onCreate().
+- Inflated From content_main.xml using the setContentView() method.
+- The view we use is ListView.
+- Reference ListView from our layout specification using findViewById().
+- Instantiate adapter and set it to ListView.
+ */
 public class MainActivity extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,5 +40,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 }
