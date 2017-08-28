@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+- As the name suggests, this layout models our viewitem, in this case our listviewitem.
+- We define how each Card shall appear in our List.
+- So at the root level we have a CardView widget.
+- We can also customize our CardView by specifying cardCornerRadius,cardElevation,width,height etc.
+- Each Card shall comprise an imageview, a ratingbar and a textview.
+- For our ratingbar we are using simpleratingbar library so we add the simpleratingbar tag.
+- Take note that we can specify and customize the ratingbar's properties like stepsize,color,star size etc
+-->
 <android.support.v7.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -35,7 +44,6 @@
                 android:id="@+id/nameTxt"
                 android:padding="5dp"
                 android:layout_weight="1" />
-
 
             <com.iarcuschin.simpleratingbar.SimpleRatingBar
                 android:id="@+id/ratingBarID"
